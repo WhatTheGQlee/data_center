@@ -1,0 +1,11 @@
+<root>
+  <connstr>127.0.0.1,root,123456,data_server,3306</connstr>
+  <charset>utf8</charset>
+  <inifilename>/home/gqlee/project/data_server/ini/xmltodb.xml</inifilename>
+  <xmlpath>/home/gqlee/project/tmp/xmltodb</xmlpath>
+  <xmlpathbak>/home/gqlee/project/tmp/xmltodbbak</xmlpathbak>
+  <xmlpatherr>/home/gqlee/project/tmp/xmltodberr</xmlpatherr>
+  <timetvl>5</timetvl>
+  <timeout>50</timeout>
+  <pname>xmltodb</pname>
+</root>

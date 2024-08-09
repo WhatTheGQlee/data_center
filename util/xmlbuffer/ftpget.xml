@@ -1,0 +1,16 @@
+<root>
+  <host>127.0.0.1:21</host>
+  <mode>1</mode>
+  <username>test</username>
+  <password>123456</password>
+  <localpath>/idcdata/surfdata</localpath>
+  <remotepath>/tmp/idc/surfdata</remotepath>
+  <matchname>SURF_ZH*.XML,SURF_ZH*.CSV</matchname>
+  <listfilename>/idcdata/ftplist/ftpgetfiles_surfdata.list</listfilename>
+  <ptype>1</ptype>
+  <remotepathbak>/tmp/idc/surfdatabak</remotepathbak>
+  <okfilename>/idcdata/ftplist/ftpgetfiles_surfdata.xml</okfilename>
+  <checkmtime>true</checkmtime>
+  <timeout>80</timeout>
+  <pname>ftpgetfiles_surfdata</pname>
+</root>

@@ -1,0 +1,18 @@
+<root>
+  <connstr>127.0.0.1,root,123456,data_server,3306</connstr>
+  <charset>utf8</charset>
+  <selectsql>select obtid,date_format(ddatetime,'%%Y-%%m-%%d %%H:%%i:%%s'),t,p,u,wd,wf,r,vis,keyid
+    from T_ZHOBTMIND where keyid>:1 and ddatetime>timestampadd(minute,-120,now())</selectsql>
+  <fieldstr>obtid,ddatetime,t,p,u,wd,wf,r,vis,keyid</fieldstr>
+  <fieldlen>10,19,8,8,8,8,8,8,8,15</fieldlen>
+  <bfilename>ZHOBTMIND</bfilename>
+  <efilename>HYCZ</efilename>
+  <outpath>/home/gqlee/project/tmp/xmltodb</outpath>
+  <starttime></starttime>
+  <incfield>keyid</incfield>
+  <incfilename>/home/gqlee/project/tmp/xmltodb/dminingmysql_ZHOBTMIND_HYCZ.list</incfilename>
+  <timeout>30</timeout>
+  <pname>dminingmysql_ZHOBTMIND_HYCZ</pname>
+  <maxcount>1000</maxcount>
+  <connstr1>127.0.0.1,root,123456,data_server,3306</connstr1>
+</root>

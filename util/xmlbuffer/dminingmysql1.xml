@@ -1,0 +1,12 @@
+<root>
+  <connstr>127.0.0.1,root,123456,data_server,3306</connstr>
+  <charset>utf8</charset>
+  <selectsql>select obtid,cityname,provname,lat,lon,height from T_ZHOBTCODE</selectsql>
+  <fieldstr>obtid,cityname,provname,lat,lon,height</fieldstr>
+  <fieldlen>10,30,30,10,10,10</fieldlen>
+  <bfilename>ZHOBTCODE</bfilename>
+  <efilename>HYCZ</efilename>
+  <outpath>/home/gqlee/project/tmp/xmltodb</outpath>
+  <timeout>30</timeout>
+  <pname>dminingmysql_ZHOBTCODE</pname>
+</root>

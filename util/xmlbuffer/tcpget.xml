@@ -1,0 +1,13 @@
+<root>
+  <ip>172.19.84.207</ip>
+  <port>22000</port>
+  <ptype>1</ptype>
+  <srvpath>/home/gqlee/project/log/tmp</srvpath>
+  <srvpathbak></srvpathbak>
+  <andchild>true</andchild>
+  <matchname>*.XML,*.CSV,*.JSON</matchname>
+  <clientpath>/home/gqlee/project/tmp/surfdata</clientpath>
+  <timetvl>10</timetvl>
+  <timeout>50</timeout>
+  <pname>tcpgetfiles_surfdata</pname>
+</root>

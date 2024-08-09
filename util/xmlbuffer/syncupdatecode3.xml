@@ -1,0 +1,17 @@
+<root>
+  <localconnstr>192.168.174.129,root,mysqlpwd,mysql,3306</localconnstr>
+  <charset>utf8</charset>
+  <fedtname>LK_ZHOBTCODE1</fedtname>
+  <localtname>T_ZHOBTCODE3</localtname>
+  <remotecols>obtid,cityname,provname,lat,lon,height/10,upttime,keyid</remotecols>
+  <localcols>stid,cityname,provname,lat,lon,altitude,upttime,keyid</localcols>
+  <where>where obtid like '54%%'</where>
+  <synctype>2</synctype>
+  <remoteconnstr>192.168.174.132,root,mysqlpwd,mysql,3306</remoteconnstr>
+  <remotename>T_ZHOBTCODE1</remotename>
+  <remotekeycol>obtid</remotekeycol>
+  <localkeycol>stid</localkeycol>
+  <maxcount>10</maxcount>
+  <timeout>50</timeout>
+  <pname>syncupdate_ZHOBTCODE3</pname>
+</root>
